@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="calculator.css">
+
+
+<body>
+  <div class="main">
+
+    <div class="leftside">
+
+      <div>
+        <h2>My Calculator</h2>
+      </div>
+
+      <div class="input">
+        <input type="text" value="" disabled id="subVal" readonly>
+        <input type="text" value="0" id="inputVal">
+      </div>
+
+      <div class="numbers">
+        <button onclick="clearall()">AC</button><button onclick="getValue('%')">%</button> <button
+          onclick="removelastDigit()">Del</button> <button onclick="getValue('/')">/</button>
+        <button onclick="getValue('7')">7</button> <button onclick="getValue('8')">8</button> <button
+          onclick="getValue('9')">9</button> <button onclick="getValue('*')">*</button>
+        <button onclick="getValue('4')">4</button> <button onclick="getValue('5')">5</button> <button
+          onclick="getValue('6')">6</button> <button onclick="getValue('-')">-</button>
+        <button onclick="getValue('1')">1</button> <button onclick="getValue('2')">2</button> <button
+          onclick="getValue('3')">3</button> <button onclick="getValue('+')">+</button>
+        <button>H</button> <button onclick="getValue('0')">0</button> <button onclick="getValue('.')">.</button> <button
+          onclick="solve()">=</button>
+      </div>
+
+    </div>
+
+
+
+
+
+
+
+
+    <div class="rightside">
+
+      <div>
+        <h1>History</h2>
+      </div>
+
+
+      <div id="historyDiv">
+
+      </div>
+
+
+      <div id="lastbtn">
+        <button onclick="clearhistory()">Clear ALL</button>
+      </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+
+
+  <script src="calculator.js"> </script>
+</body>
+
+</html>

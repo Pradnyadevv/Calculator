@@ -1,0 +1,81 @@
+.main{
+    box-sizing: border-box;
+    display: flex;
+
+}
+
+
+/* Leftside part numbers etc */
+h2{
+    margin-left: 120px;
+}
+
+.leftside{
+    border-style: solid;
+    border-radius: 30px;
+    margin-left: 550px;
+    padding: 10px;
+    margin-top: 35px;
+    height: 650px;
+    /* background-color: antiquewhite; */
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+    
+}
+
+input{
+    
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 350px;
+    border-radius: 10px;
+    text-align: end;
+    
+}
+    
+
+
+.numbers{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 5px;
+    margin-top: 10px;
+
+}
+ 
+
+button{
+    border-radius: 20px;
+    padding:30px;
+    font-size: large;
+    color: black;
+
+}
+
+
+
+
+
+/* Right side part History */
+
+.rightside{
+    margin-left: 100px;
+}
+
+h1{
+    margin-left: 130px;
+}
+
+#historyDiv{
+       width: 400px;
+       height: 500px;
+        border: solid;
+        border-radius: 10px;
+        margin-bottom: 10px;
+
+}
+
+#lastbtn{
+    margin-left: 130px;
+}
